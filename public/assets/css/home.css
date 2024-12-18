@@ -1,0 +1,107 @@
+.multi-line-truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}  
+
+.email-text {
+    font-size: 0.65rem; 
+}  
+
+.desc{
+    /* padding-top: 30px; */
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+
+.cards{
+    background-color: none;
+}
+
+input.form-control, textarea.form-control {
+    font-family: 'Inter';
+    font-size: 18px;
+}
+
+
+input::placeholder, textarea::placeholder {
+    font-family: 'Inter';
+    font-size: 15px;
+}
+
+.goback{
+    display: inline-block;
+    padding-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.back{
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.backs{
+    display: inline-block;
+    padding-left: 5px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.backs:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+.profile{
+    padding-bottom: 30px;
+}
+
+.submitButton{
+    position: center;
+    max-width: 150px;
+    margin-bottom: 40px;
+}
+
+.fa-calendar-days{
+    margin-right: 8px;
+    margin-left: 1px;
+    color: white;
+}
+
+.fa-location-dot{
+    margin-right: 8px;
+    margin-left: 2.5px;
+    color: white;
+}
+
+.admintitle{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.adminCard{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.reglogbar{
+    background-color: white;
+}
+
+.pagination span svg{
+    display: none;
+}
+
+.pagination .z-0{
+    display: none;
+}
